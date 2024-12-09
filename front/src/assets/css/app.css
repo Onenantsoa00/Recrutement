@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.check-sidebar {
+    @apply inline-flex items-center text-white hover:text-black transition-colors duration-300  py-[10px] w-full text-sm font-medium rounded-md border-gray-100 hover:bg-gray-300 transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg;
+  }
+  
+
+.creationTableau{
+    @apply overflow-x-auto relative sm:rounded-lg ;
+}
+
+.entete1{
+    @apply text-[50px] font-extrabold text-left py-2 mx-3
+}
+
+.table1{
+    @apply w-full text-sm text-left text-gray-950 dark:text-gray-700
+}
+
+.tr-tableau{
+    @apply bg-white border-b dark:bg-gray-800 dark:border-gray-700
+}
+
+.th-tableau{
+    @apply py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white flex justify-around
+}
+
+.td-tableau{
+    @apply py-4 px-6
+}
+
+.en-tete-1{
+    @apply text-xs text-gray-950 uppercase bg-gray-300 dark:bg-gray-700 dark:text-red-500
+}
+
+.alignement-flex{
+    @apply flex items-center
+}
+
+.paddingxy{
+    @apply py-3 px-6
+}
+
+.btn-hover-blue {
+    @apply bg-blue-500 text-white py-2 px-4 rounded transition-all hover:bg-blue-700 shadow-lg;
+}
+.btn-hover-green {
+    @apply bg-green-500 text-white py-2 px-4 rounded transition-all hover:bg-green-700 shadow-lg;
+}
+
+.btn-hover-red {
+    @apply bg-red-500 text-white py-2 px-4 rounded transition-all hover:bg-red-700 shadow-lg;
+}
+
+.btn-recherche{
+    @apply  bg-gray-500 text-white py-2 px-4 rounded transition-all hover:bg-gray-700 shadow-lg
+}
+
+.btn-scale {
+    @apply bg-red-500 text-white py-2 px-4 rounded transition-transform hover:scale-110;
+}
+
+.btn-shrink {
+    @apply bg-red-500 text-white py-2 px-4 rounded transition-transform hover:scale-95;
+}
+
+.input-search {
+    @apply border border-gray-300 rounded-lg py-2 px-4 text-gray-700 placeholder-gray-500 transition-all duration-300 ease-in-out outline-none shadow-lg;
+  }
+
+.input-formulaire{
+    @apply w-full border-2 p-1 rounded-md
+}
+
